@@ -1,0 +1,127 @@
+body{
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-lg-4.p-5.leftbar p{
+    font-size: 13px;
+}
+
+.col-lg-4.p-5.leftbar h6{
+    color: #0084c7;
+}
+
+.col-lg-4.p-5.leftbar h4{
+    border-bottom: 1px solid;
+    position: relative;
+}
+
+.col-lg-4.p-5.leftbar h4::after{
+    position: absolute;
+    content: ' ';
+    background-color: #0084c7;
+    width: 32px !important;
+    height: 4px;
+    top: 96%;
+    left: 45%;
+}
+
+.text-center.about img{
+    border-radius: 100%;
+    height: 260px;
+    width: 220px;
+}
+
+.text-center.about h1{
+    font-size: 32px;
+    color: #0084c7;
+    font-weight: 700;
+}
+
+.leftbar{
+    background-color: #ededef;
+}
+
+
+
+.col-lg-7.s_right{
+    margin: -15px 0;
+}
+
+
+.col-lg-6.s_left p {
+    line-height: 0.85;
+}
+.progress-bar.progress-bar-striped.progress-bar-animated {
+    background: #414143;
+}
+
+.progress {
+    background: #b9babc !important;
+    margin: 20px 0;
+    height: 7px !important;
+    width: 160px;
+    background: #b8b9bb;
+    line-height: 0.75;
+  }
+  .progress-bar-animated {
+    background: #414143;
+    animation: 1s linear infinite progress-bar-stripes;
+}
+
+.col-lg-6.software p{
+    line-height: 0.15;
+}
+
+.col-lg-8.p-5.rightbar h4{
+    border-bottom: 1px solid;
+    position: relative;
+}
+
+.col-lg-8.p-5.rightbar h4::after{
+    position: absolute;
+    content: ' ';
+    background-color: #0084c7;
+    width: 32px !important;
+    height: 4px;
+    top: 96%;
+    left: 0;
+}
+
+.col-lg-8.p-5.rightbar{
+    border-left: 20px solid white;
+    background-color: #ededef;
+}
+
+.col-lg-8.p-5.rightbar p{
+    font-size: 14px;
+}
+
+.col-lg-8.p-5.rightbar h4{
+    font-weight: light;
+}
+
+.h_icon{
+    font-size: 50px;
+    text-align: center;
+}
+
+.e_year{
+    text-align: end;
+}
+
+.rightbar{
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.leftbar{
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    color: #003366;
+  }
